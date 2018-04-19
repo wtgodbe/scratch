@@ -14,9 +14,9 @@ run_test_in_loop()
 	done
 }
 
-for i in $(seq 1 100)
+for i in {1..100}
 do
-	run_test_in_loop $1 $2 $3
+	run_test_in_loop $1 $2 $3 &
 done
 wait
 

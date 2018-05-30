@@ -1,0 +1,299 @@
+Comparing files oldTools.txt and NEWTOOLS.TXT
+***** oldTools.txt
+Folder PATH listing for volume DATADRIVE1
+Volume serial number is 00000189 3671:4C74
+E:\CODE\SCRATCH\COREFX\TOOLS
+|   ApiCompat.exe
+***** NEWTOOLS.TXT
+Folder PATH listing for volume DATADRIVE1
+Volume serial number is 000001AA 3671:4C74
+E:\CODE\COREFX\TOOLS
+|   ApiCompat.exe
+*****
+
+***** oldTools.txt
+|   MicroBuild.Plugin.props
+|   Microsoft.Build.dll
+|   Microsoft.Build.Framework.dll
+|   Microsoft.Build.Tasks.CodeAnalysis.dll
+|   Microsoft.Build.Tasks.Core.dll
+|   Microsoft.Build.Utilities.Core.dll
+|   Microsoft.Cci.dll
+***** NEWTOOLS.TXT
+|   MicroBuild.Plugin.props
+|   Microsoft.Cci.dll
+*****
+
+***** oldTools.txt
+|   Microsoft.CodeAnalysis.VisualBasic.dll
+|   Microsoft.Common.CrossTargeting.targets
+|   Microsoft.Common.CurrentVersion.targets
+|   Microsoft.Common.overridetasks
+|   Microsoft.Common.targets
+|   Microsoft.Common.tasks
+|   Microsoft.CSharp.Core.targets
+|   Microsoft.CSharp.CrossTargeting.targets
+|   Microsoft.CSharp.CurrentVersion.targets
+|   Microsoft.CSharp.targets
+|   Microsoft.DotNet.Build.CloudTest.targets
+***** NEWTOOLS.TXT
+|   Microsoft.CodeAnalysis.VisualBasic.dll
+|   Microsoft.DotNet.Build.CloudTest.targets
+*****
+
+***** oldTools.txt
+|   Microsoft.DotNet.Build.Tasks.Packaging.dll
+|   Microsoft.DotNet.PlatformAbstractions.dll
+|   Microsoft.DotNet.VersionTools.dll
+|   Microsoft.NETFramework.CurrentVersion.props
+|   Microsoft.NETFramework.CurrentVersion.targets
+|   Microsoft.NETFramework.props
+|   Microsoft.NETFramework.targets
+|   Microsoft.VisualBasic.Core.targets
+|   Microsoft.VisualBasic.CrossTargeting.targets
+|   Microsoft.VisualBasic.CurrentVersion.targets
+|   Microsoft.VisualBasic.targets
+|   Microsoft.VisualStudioVersion.v11.Common.props
+|   Microsoft.VisualStudioVersion.v12.Common.props
+|   Microsoft.VisualStudioVersion.v14.Common.props
+|   msbuild.cmd
+|   MSBuild.dll
+|   MSBuild.runtimeconfig.json
+***** NEWTOOLS.TXT
+|   Microsoft.DotNet.Build.Tasks.Packaging.dll
+|   Microsoft.DotNet.VersionTools.dll
+|   msbuild.cmd
+|   MSBuild.runtimeconfig.json
+*****
+
+***** oldTools.txt
+|   Newtonsoft.Json.dll
+|   notsupported.targets
+***** NEWTOOLS.TXT
+|   Newtonsoft.Json.dll
+|   newTools.txt
+|   notsupported.targets
+*****
+
+***** oldTools.txt
+|   NuGet.Versioning.dll
+|   oldTools.txt
+|   Open.snk
+***** NEWTOOLS.TXT
+|   NuGet.Versioning.dll
+|   Open.snk
+*****
+
+***** oldTools.txt
+|   System.Security.Cryptography.Hashing.Algorithms.Analyzers.dll
+|   System.Xml.XPath.XmlDocument.dll
+|   Test.snk
+***** NEWTOOLS.TXT
+|   System.Security.Cryptography.Hashing.Algorithms.Analyzers.dll
+|   Test.snk
+*****
+
+***** oldTools.txt
+|   
++---15.0
+|       Microsoft.Common.props
+|       
++---2.2.0-preview1-02823-01
+|       init-tools.completed
+***** NEWTOOLS.TXT
+|   
++---2.2.0-preview1-02830-0
+|       init-tools.completed
+*****
+
+***** oldTools.txt
+|   |   |   |   .version
+|   |   |   |   2.1.300-rc1-008673 - Shortcut.lnk
+|   |   |   |   datacollector.deps.json
+***** NEWTOOLS.TXT
+|   |   |   |   .version
+|   |   |   |   datacollector.deps.json
+*****
+
+***** oldTools.txt
+|               
++---Microsoft
+|   \---Portable
+|       |   Microsoft.Portable.Core.props
+|       |   Microsoft.Portable.Core.targets
+|       |   
+|       +---v4.0
+|       |       Microsoft.Portable.Common.targets
+|       |       Microsoft.Portable.CSharp.targets
+|       |       Microsoft.Portable.VisualBasic.targets
+|       |       
+|       +---v4.5
+|       |       Microsoft.Portable.Common.targets
+|       |       Microsoft.Portable.CSharp.targets
+|       |       Microsoft.Portable.VisualBasic.targets
+|       |       
+|       +---v4.6
+|       |       Microsoft.Portable.Common.targets
+|       |       Microsoft.Portable.CSharp.targets
+|       |       Microsoft.Portable.VisualBasic.targets
+|       |       
+|       \---v5.0
+|               Microsoft.Portable.Common.targets
+|               Microsoft.Portable.CSharp.targets
+|               Microsoft.Portable.VisualBasic.targets
+|               
++---microsoft.net.compilers
+***** NEWTOOLS.TXT
+|               
++---microsoft.net.compilers
+*****
+
+***** oldTools.txt
++---microsoft.netcore.ilasm
+|   \---2.2.0-preview1-26523-04
+|           LICENSE.TXT
+|           microsoft.netcore.ilasm.2.2.0-preview1-26523-04.nupkg
+|           microsoft.netcore.ilasm.2.2.0-preview1-26523-04.nupkg.sha512
+|           microsoft.netcore.ilasm.nuspec
+***** NEWTOOLS.TXT
++---microsoft.netcore.ilasm
+|   \---2.2.0-preview1-26514-05
+|           LICENSE.TXT
+|           microsoft.netcore.ilasm.2.2.0-preview1-26514-05.nupkg
+|           microsoft.netcore.ilasm.2.2.0-preview1-26514-05.nupkg.sha512
+|           microsoft.netcore.ilasm.nuspec
+*****
+
+***** oldTools.txt
++---microsoft.netcore.jit
+|   \---2.2.0-preview1-26523-04
+|           LICENSE.TXT
+|           microsoft.netcore.jit.2.2.0-preview1-26523-04.nupkg
+|           microsoft.netcore.jit.2.2.0-preview1-26523-04.nupkg.sha512
+|           microsoft.netcore.jit.nuspec
+***** NEWTOOLS.TXT
++---microsoft.netcore.jit
+|   \---2.2.0-preview1-26514-05
+|           LICENSE.TXT
+|           microsoft.netcore.jit.2.2.0-preview1-26514-05.nupkg
+|           microsoft.netcore.jit.2.2.0-preview1-26514-05.nupkg.sha512
+|           microsoft.netcore.jit.nuspec
+*****
+
+***** oldTools.txt
++---microsoft.netcore.runtime.coreclr
+|   \---2.2.0-preview1-26523-04
+|       |   LICENSE.TXT
+|       |   microsoft.netcore.runtime.coreclr.2.2.0-preview1-26523-04.nupkg
+|       |   microsoft.netcore.runtime.coreclr.2.2.0-preview1-26523-04.nupkg.sha512
+|       |   microsoft.netcore.runtime.coreclr.nuspec
+***** NEWTOOLS.TXT
++---microsoft.netcore.runtime.coreclr
+|   \---2.2.0-preview1-26514-05
+|       |   LICENSE.TXT
+|       |   microsoft.netcore.runtime.coreclr.2.2.0-preview1-26514-05.nupkg
+|       |   microsoft.netcore.runtime.coreclr.2.2.0-preview1-26514-05.nupkg.sha512
+|       |   microsoft.netcore.runtime.coreclr.nuspec
+*****
+
+***** oldTools.txt
+|                   
++---microsoft.portable.targets
+|   \---0.1.1-dev
+|       |   microsoft.portable.targets.0.1.1-dev.nupkg
+|       |   microsoft.portable.targets.0.1.1-dev.nupkg.sha512
+|       |   microsoft.portable.targets.nuspec
+|       |   
+|       \---contentFiles
+|           \---any
+|               \---any
+|                   \---Extensions
+|                       \---Microsoft
+|                           \---Portable
+|                               |   Microsoft.Portable.Core.props
+|                               |   Microsoft.Portable.Core.targets
+|                               |   
+|                               +---v4.0
+|                               |       Microsoft.Portable.Common.targets
+|                               |       Microsoft.Portable.CSharp.targets
+|                               |       Microsoft.Portable.VisualBasic.targets
+|                               |       
+|                               +---v4.5
+|                               |       Microsoft.Portable.Common.targets
+|                               |       Microsoft.Portable.CSharp.targets
+|                               |       Microsoft.Portable.VisualBasic.targets
+|                               |       
+|                               +---v4.6
+|                               |       Microsoft.Portable.Common.targets
+|                               |       Microsoft.Portable.CSharp.targets
+|                               |       Microsoft.Portable.VisualBasic.targets
+|                               |       
+|                               \---v5.0
+|                                       Microsoft.Portable.Common.targets
+|                                       Microsoft.Portable.CSharp.targets
+|                                       Microsoft.Portable.VisualBasic.targets
+|                                       
++---net46
+***** NEWTOOLS.TXT
+|                   
++---net46
+*****
+
+***** oldTools.txt
++---runtime.win-x64.microsoft.netcore.ilasm
+|   \---2.2.0-preview1-26523-04
+|       |   LICENSE.TXT
+|       |   runtime.win-x64.microsoft.netcore.ilasm.2.2.0-preview1-26523-04.nupkg
+|       |   runtime.win-x64.microsoft.netcore.ilasm.2.2.0-preview1-26523-04.nupkg.sha512
+|       |   runtime.win-x64.microsoft.netcore.ilasm.nuspec
+***** NEWTOOLS.TXT
++---runtime.win-x64.microsoft.netcore.ilasm
+|   \---2.2.0-preview1-26514-05
+|       |   LICENSE.TXT
+|       |   runtime.win-x64.microsoft.netcore.ilasm.2.2.0-preview1-26514-05.nupkg
+|       |   runtime.win-x64.microsoft.netcore.ilasm.2.2.0-preview1-26514-05.nupkg.sha512
+|       |   runtime.win-x64.microsoft.netcore.ilasm.nuspec
+*****
+
+***** oldTools.txt
++---runtime.win-x64.microsoft.netcore.jit
+|   \---2.2.0-preview1-26523-04
+|       |   LICENSE.TXT
+|       |   runtime.win-x64.microsoft.netcore.jit.2.2.0-preview1-26523-04.nupkg
+|       |   runtime.win-x64.microsoft.netcore.jit.2.2.0-preview1-26523-04.nupkg.sha512
+|       |   runtime.win-x64.microsoft.netcore.jit.nuspec
+***** NEWTOOLS.TXT
++---runtime.win-x64.microsoft.netcore.jit
+|   \---2.2.0-preview1-26514-05
+|       |   LICENSE.TXT
+|       |   runtime.win-x64.microsoft.netcore.jit.2.2.0-preview1-26514-05.nupkg
+|       |   runtime.win-x64.microsoft.netcore.jit.2.2.0-preview1-26514-05.nupkg.sha512
+|       |   runtime.win-x64.microsoft.netcore.jit.nuspec
+*****
+
+***** oldTools.txt
++---runtime.win-x64.microsoft.netcore.runtime.coreclr
+|   \---2.2.0-preview1-26523-04
+|       |   LICENSE.TXT
+|       |   runtime.win-x64.microsoft.netcore.runtime.coreclr.2.2.0-preview1-26523-04.nupkg
+|       |   runtime.win-x64.microsoft.netcore.runtime.coreclr.2.2.0-preview1-26523-04.nupkg.sha512
+|       |   runtime.win-x64.microsoft.netcore.runtime.coreclr.nuspec
+***** NEWTOOLS.TXT
++---runtime.win-x64.microsoft.netcore.runtime.coreclr
+|   \---2.2.0-preview1-26514-05
+|       |   LICENSE.TXT
+|       |   runtime.win-x64.microsoft.netcore.runtime.coreclr.2.2.0-preview1-26514-05.nupkg
+|       |   runtime.win-x64.microsoft.netcore.runtime.coreclr.2.2.0-preview1-26514-05.nupkg.sha512
+|       |   runtime.win-x64.microsoft.netcore.runtime.coreclr.nuspec
+*****
+
+***** oldTools.txt
+|   |           csc.dll
+|   |           Microsoft.CSharp.Core.targets
+|   |           Microsoft.VisualBasic.Core.targets
+|   |           vbc.dll
+***** NEWTOOLS.TXT
+|   |           csc.dll
+|   |           vbc.dll
+*****
+

@@ -42,7 +42,7 @@ if [[ -z "$__command" ]]; then
 fi
 
 __retryCount=0
-until [[ $exit_code -eq 0 ] || [ $__retryCount -ge $__retries ]]; do
+until [ $exit_code -eq 0 ] || [ $__retryCount -ge $__retries ]; do
 	eval $__command
 	exit_code=$?
    __retryCount=$((__retryCount+1))

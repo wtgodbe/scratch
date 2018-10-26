@@ -5,7 +5,7 @@ __retries=5
 __command="ls"
 
 if [[ -z "$__command" ]]; then
-	echo "ERROR: Please supply a value for '-command'"
+	echo "ERROR Please supply a value for '-command'"
 	exit 2
 fi
 

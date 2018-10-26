@@ -4,7 +4,8 @@
 __retries=5
 __command=
 
-while :; do
+while :
+do
     if [ $# -le 0 ]; then
         break
     fi

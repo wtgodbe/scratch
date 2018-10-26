@@ -47,7 +47,9 @@ until [ $exit_code -eq 0 ] || [ $__retryCount -ge $__retries ]; do
 	eval $__command
 	exit_code=$?
    __retryCount=$((__retryCount+1))
-   echo "Failed to execute command, retrying"
+   if [ $exit_code -ne 0 ]; then
+    echo "Failed to execute command, retrying"
+  fi
 done
 
 exit $exit_code

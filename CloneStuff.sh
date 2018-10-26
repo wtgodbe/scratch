@@ -2,7 +2,7 @@
 
 # Set default value for __retries
 __retries=5
-__command=
+__command=""
 
 while :
 do
@@ -36,7 +36,7 @@ do
     shift
 done
 
-if [[ -z "$__command"]]
+if [[ -z "$__command" ]]; then
 	echo "ERROR: Please supply a value for '-command'"
 	exit 2
 fi

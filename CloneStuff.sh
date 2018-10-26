@@ -41,6 +41,7 @@ if [[ -z "$__command" ]]; then
 	exit 2
 fi
 
+exit_code=1
 __retryCount=0
 until [ $exit_code -eq 0 ] || [ $__retryCount -ge $__retries ]; do
 	eval $__command

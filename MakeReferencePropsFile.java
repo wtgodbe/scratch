@@ -17,6 +17,7 @@ public class MakeReferencePropsFile {
 		ArrayList<File> extFiles = new ArrayList<File>();
 		listAllFiles("E:\\code\\aspnet\\extensions\\src", extFiles);
 		
+		//Maps AspNetCore projects to ProjectReferences
 		HashMap<String, HashSet<String>> refs = new HashMap<String, HashSet<String>>();
 		for (File f: files){
 			Scanner fileScan = new Scanner(f);
@@ -34,6 +35,7 @@ public class MakeReferencePropsFile {
 			refs.put(k, v);
 		}
 		
+		//Maps Extensions projects to projectReferences
 		HashMap<String, HashSet<String>> extRefs = new HashMap<String, HashSet<String>>();
 		for (File f: extFiles){
 			Scanner fileScan = new Scanner(f);
@@ -51,11 +53,23 @@ public class MakeReferencePropsFile {
 			extRefs.put(k2, v2);
 		}
 		
+		//If an AspNetCore proj references an Extensions proj, add the Extensions proj's refs to the AspNetCore proj's refs
 		for (String s1: refs.keySet()){
 			HashSet<String> temp = new HashSet<String>();
 			for (String s2: refs.get(s1)){
 				if (extRefs.containsKey(s2)){
 					temp.addAll(extRefs.get(s2));
+				}
+			}
+			refs.get(s1).addAll(temp);
+		}
+		
+		//If an AspNetCore proj references another AspNetCore proj, add the child proj's refs to the parent proj's refs
+		for (String s1: refs.keySet()){
+			HashSet<String> temp = new HashSet<String>();
+			for (String s2: refs.get(s1)){
+				if (refs.containsKey(s2)){
+					temp.addAll(refs.get(s2));
 				}
 			}
 			refs.get(s1).addAll(temp);

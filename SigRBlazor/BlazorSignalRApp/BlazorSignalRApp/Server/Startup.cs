@@ -37,8 +37,8 @@ namespace BlazorSignalRApp.Server
             {
                 // Configure the Authority to the expected value for your authentication provider
                 // This ensures the token is appropriately validated
-                options.Authority = "http://localhost:5000/";
-                options.RequireHttpsMetadata = false;
+                //options.Authority = "http://localhost:5000/";
+                //options.RequireHttpsMetadata = false;
 
                 // We have to hook the OnMessageReceived event in order to
                 // allow the JWT authentication handler to read the access
@@ -88,8 +88,8 @@ namespace BlazorSignalRApp.Server
                 app.UseHsts();
             }
 
-            app.UseAuthentication();
             app.UseHttpsRedirection();
+            app.UseAuthentication();
             app.UseBlazorFrameworkFiles();
             app.UseStaticFiles();
 

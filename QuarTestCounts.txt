@@ -1,0 +1,22 @@
+Microsoft.AspNetCore.Components.E2ETests: 13
+InMemory.FunctionalTests: 13
+Microsoft.AspNetCore.Server.IIS.FunctionalTests: 9
+Microsoft.AspNetCore.Server.Kestrel.FunctionalTests: 9
+Microsoft.AspNetCore.Server.HttpSys.FunctionalTests: 8
+ProjectTemplates.Tests: 7
+Interop.FunctionalTests: 6
+InteropTests: 6
+Microsoft.AspNetCore.Components.WebAssembly.Build.Tests: 3
+Microsoft.AspNetCore.Hosting.Tests: 2
+Microsoft.AspNetCore.Hosting.FunctionalTests: 2
+Internal.AspNetCore.Analyzers.Tests: 2
+Microsoft.AspNetCore.Testing.Tests: 2
+dotnet-watch.Tests: 2
+Microsoft.AspNetCore.Mvc.FunctionalTests: 2
+dotnet-user-secrets.Tests: 1
+Microsoft.AspNetCore.SignalR.Client.Tests: 1
+Microsoft.AspNetCore.Components.Tests: 1
+IIS.Tests: 1
+Microsoft.AspNetCore.Mvc.TagHelpers.Test: 1
+
+Total: 91
